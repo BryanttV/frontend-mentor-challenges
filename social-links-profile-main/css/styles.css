@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(0, 0%, 8%);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 12%);
+  width: 370px;
+  height: 540px;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-image {
+  border-radius: 100px;
+  width: 80px;
+}
+
+.author-name {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+
+.author-location {
+  color: hsl(75, 94%, 57%);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.author-description {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 18px 0;
+}
+
+.btn {
+  background: hsl(0, 0%, 20%);
+  color: white;
+  width: 300px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  margin: 8px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(231, 100%, 99%);
+}

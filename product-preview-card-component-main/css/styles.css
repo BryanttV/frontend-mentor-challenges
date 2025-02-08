@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: hsl(30, 38%, 92%);
+}
+
+.card {
+  display: flex;
+  border-radius: 15px;
+  height: 520px;
+  width: 700px;
+  overflow: hidden;
+  background: white;
+}
+
+.card-image {
+  object-fit: cover;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.product-type {
+  margin-bottom: 24px;
+}
+
+.product-title {
+  font-family: "Fraunces";
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.product-description {
+  margin-bottom: 25px;
+  line-height: 1.5;
+  color: hsl(228, 12%, 48%);
+}
+
+.product-price {
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  color: hsl(228, 12%, 48%);
+  gap: 20px;
+}
+
+.product-discount-price {
+  font-family: "Fraunces";
+  color: hsl(158, 36%, 37%);
+  font-size: 35px;
+}
+
+.add-to-cart-btn {
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  background: hsl(158, 36%, 37%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
