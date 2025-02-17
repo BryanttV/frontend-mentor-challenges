@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor Challenges</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Fira Code', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            color: white;
+            background: hsl(216, 16%, 12%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            background: hsl(219, 18%, 15%);
+            flex-direction: column;
+            border: 1px solid;
+            border-radius: 15px;
+            padding: 50px;
+            width: 600px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .title {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .challenges-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .challenge {
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            border: 1px solid;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            background: #2a303c;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .challenge:hover {
+            background: hsl(221, 16%, 23%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .challenge:last-child {
+            background: hsl(120, 1%, 25%);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="title">Frontend Mentor Challenges</h1>
+        <div class="challenges-container">
+            <a class="challenge" href="blog-preview-card-main/index.html">Blog Preview Card Main</a>
+            <a class="challenge" href="nft-preview-card-component-main/index.html">NFT Preview Card Component</a>
+            <a class="challenge" href="order-summary-component-main/index.html">Order Summary Component</a>
+            <a class="challenge" href="product-preview-card-component-main/index.html">Product Preview Card
+                Component</a>
+            <a class="challenge" href="qr-code-component-main/index.html">QR Code Component</a>
+            <a class="challenge" href="results-summary-component-main/index.html">Results Summary Component</a>
+            <a class="challenge" href="social-links-profile-main/index.html">Social Links Profile</a>
+            <a class="challenge" href="#"> Working on it...</a>
+        </div>
+    </main>
+</body>
+
+</html>
