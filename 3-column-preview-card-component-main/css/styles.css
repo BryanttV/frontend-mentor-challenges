@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca";
+}
+
+body {
+  background: hsl(0, 0%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  width: 1110px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.car-content {
+  display: flex;
+  flex-direction: column;
+  padding: 55px;
+  color: white;
+  overflow: hidden;
+}
+
+.car-sedans {
+  background: hsl(31, 77%, 52%);
+}
+
+.car-suvs {
+  background: hsl(184, 100%, 22%);
+}
+
+.car-luxury {
+  background: hsl(179, 100%, 13%);
+}
+
+.car-icon {
+  width: 80px;
+  margin-bottom: 50px;
+}
+
+.car-title {
+  font-family: "Big Shoulders Display";
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+
+.car-description {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 100px;
+  padding-right: 14px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.car-button {
+  background: hsl(0, 0%, 95%);
+  padding: 20px;
+  border-radius: 100px;
+  border: none;
+  width: 180px;
+  font-size: 16px;
+  border: 2px solid white;
+}
+
+.car-sedans .car-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.car-suvs .car-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.car-luxury .car-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.car-button:hover {
+  background: none;
+  color: white;
+}
